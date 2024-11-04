@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: #0083b0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+.form-section {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+button.convert {
+    margin-top: 20px;
+    width: 100%;
+}
+
+pre {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 1rem;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
